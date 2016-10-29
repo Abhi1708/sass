@@ -1,0 +1,28 @@
+npm init
+npm install
+npm install -g grunt
+npm install grunt-contrib-sass --save-dev
+npm install -g grunt-cli
+npm install grunt --save-dev
+npm install grunt-contrib-jshint --save-dev
+
+
+sass: {
+    	dist: {
+    		files: {
+    			'css/custom.css' : 'sass/custom.scss'
+    		}
+    	}
+    }
+
+grunt.loadNpmTasks('grunt-contrib-sass');
+
+watch:
+watch: {
+      sass: {
+        files: 'sass/custom.scss',
+        tasks: ['sass']
+      }
+    },
+
+@import 'poopFonts.scss';

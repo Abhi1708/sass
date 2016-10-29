@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAU;EACT,WAAW,EAAE,0BAA0B;EACvC,KAAK,EAAE,OAAO;;ACMf,MAAM;EALL,SAAS,EAMM,GAAG;EALlB,WAAW,EAKS,IAAI;EAJxB,KAAK,EAIqB,IAAI;EAC9B,OAAO,EAAE,QAAQ",
+"sources": ["../sass/poopfonts.scss","../sass/custom.scss"],
+"names": [],
+"file": "custom.css"
+}
